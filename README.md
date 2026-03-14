@@ -9,6 +9,7 @@ A straightforward, interactive Python script designed to perform TCP connect sca
 * **Range Scan:** Sweep a defined range of ports sequentially to map out a target's open attack surface.
 * **Robust Exception Handling:** Gracefully catches and handles common socket errors, including timeouts, connection refusals, and unresolved DNS queries.
 * **Performance Tracking:** Calculates and outputs the total execution time when running bulk port scans.
+* **Multithreading** Improved scan speed with multithreading.
 
 ## Prerequisites
 
@@ -33,6 +34,5 @@ chmod +x socketpython.py
 python3 socketpython.py
 ```
 ## What will be added
-* **Multithreading** To improve scan efficiency
 * **Service & Banner Grabbing** To identify specific services used on open ports
 * **Result Exporting** To export scan results to files.
